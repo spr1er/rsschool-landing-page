@@ -98,6 +98,10 @@ h3 {
   font-size: 1.5rem;
 }
 
+h4 {
+  font-size: 1rem;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -413,32 +417,28 @@ h3 {
   overflow: hidden;
 }
 
-/* Первое изображение - высокое слева сверху */
 .about__list-item:nth-child(1) {
   grid-row: 1 / 2;
   grid-column: 1 / 2;
-  height: 590px;
+  height: 36.875rem;
 }
 
-/* Второе изображение - маленькое справа сверху */
 .about__list-item:nth-child(2) {
   grid-row: 1 / 2;
   grid-column: 2 / 3;
-  height: 430px;
+  height: 26.875rem;
 }
 
-/* Третье изображение - маленькое слева снизу */
 .about__list-item:nth-child(3) {
   grid-row: 2 / 3;
   grid-column: 1 / 2;
-  height: 430px;
+  height: 26.875rem;
 }
 
-/* Четвертое изображение - большое справа снизу */
 .about__list-item:nth-child(4) {
   grid-row: 2 / 3;
   grid-column: 2 / 3;
-  height: 590px;
+  height: 36.875rem;
   margin-top: -160px;
 }
 
@@ -455,6 +455,102 @@ h3 {
   scale: 1;
 }
 
+/* MOBILE */
+.mobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 39.375rem;
+}
 
+.mobile__left {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2.5rem;
+  max-width: 39.375rem;
+}
+
+.mobile__left-title {
+  letter-spacing: 0.1px;
+}
+
+.mobile__left-paragraph {
+}
+
+.mobile__controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.mobile__controls-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 1.25rem;
+  gap: 0.5rem;
+  width: 12.5rem;
+  height: 4rem;
+  border: 1px solid var(--color-border-inverse);
+  border-radius: var(--border-radius);
+}
+
+.controls__btn-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.0625rem;
+}
+
+.btn__info-paragraph {
+}
+
+.btn__info-title {
+}
+
+.mobile__right {
+  height: 100%;
+}
+
+.mobile__right-image {
+  object-fit: cover;
+}
 
 /*========= FOOTER ==========*/
+.footer {
+
+}
+
+.social__title {
+
+}
+
+.social__list {
+
+}
+
+.social__list-item {
+
+}
+
+.social__item-link {
+
+}
+
+.contacts__title {
+
+}
+
+.contacts__list {
+
+}
+
+.contacts__list-item {
+
+}
+
+.contacts__item-link {
+  
+}
