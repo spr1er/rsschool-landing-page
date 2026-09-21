@@ -98,10 +98,6 @@ h3 {
   font-size: 1.5rem;
 }
 
-h4 {
-  font-size: 1rem;
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -563,14 +559,14 @@ h4 {
   background-color: var(--color-border-inverse);
 }
 
-.mobile__controls-btn h4 {
+.mobile__controls-btn .btn__info-title {
   transition-duration: var(--transition-duration);
 }
 
 .mobile__controls-btn svg path {
   transition-duration: var(--transition-duration);
 }
-.mobile__controls-btn:hover h4 {
+.mobile__controls-btn:hover .btn__info-title {
   color: var(--color-inverse);
 }
 
@@ -590,6 +586,10 @@ h4 {
 }
 
 .btn__info-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--color-primary);
+  line-height: 105%;
 }
 
 .mobile__right {
